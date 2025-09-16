@@ -1,9 +1,9 @@
 import { ButtonProps } from "@/interfaces";
 
 const sizeClasses = {
-  Small: "px-3 py-1 text-sm rounded-sm",
-  Medium: "px-4 py-2 text-base rounded-lg",
-  Large: "px-5 py-3 text-lg rounded-full",
+  Small: "px-3 py-1 text-sm",
+  Medium: "px-4 py-2 text-base",
+  Large: "px-5 py-3 text-lg",
 };
 
 const Button: React.FC<ButtonProps> = ({
